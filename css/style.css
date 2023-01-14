@@ -1,0 +1,193 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+/* work sens google font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Work+Sans&display=swap");
+
+/* common css property here */
+body {
+  font-family: Work Sans;
+}
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+.primery-color {
+  color: #ff900e;
+}
+.primery-one{
+    color: #727272;
+}
+.primery-two{
+    color: #131313;
+}
+.primery-three{
+    color: #FF900E;
+}
+.primery-btn a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.primery-btn {
+  text-decoration: none;
+  background-color: #ff900e;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 15px 25px;
+  font-weight: 600;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+/* header css start */
+.header {
+  background: rgba(255, 144, 14, 0.1);
+  margin-bottom: 85px;
+}
+
+/* parents class of header name and nav  design start */
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.site-name {
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 52px;
+  color: #131313;
+  
+}
+.nav {
+  display: flex;
+}
+
+li {
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  margin: 15px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  align-items: center;
+  color: #424242;
+  margin-top: 20px;
+  
+}
+
+/* header banner part design start  */
+.header-banner {
+  text-align: center;
+  padding: 50px;
+}
+.banner-titel {
+  font-size: 64px;
+  font-weight: 700;
+  color: #131313;
+}
+.banner-description {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #727272;
+  font-weight: 400;
+  margin-bottom: 32px;
+}
+.header-banner img {
+  width:100%;
+  
+}
+/* feature section design part start */
+.feature-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.future-img{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 10px;
+}
+.future-img img{
+    width: 342px;
+    height: 342px;
+}
+/* feture content design */
+.feature-content{
+    margin-left: 40px;
+}
+.future-titel{
+    font-size: 45px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.future-description{
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 30px;
+}
+/* feture formula design start  */
+.future-formula{
+    display: flex;
+    margin-top: 130px;
+    gap: 50px;
+    
+}
+.formula-titel{
+    font-size: 45px;
+    font-weight: 45px;
+    color: #131313;
+    margin-bottom: 24px;
+    border-left: 5px solid #FF900E; 
+    padding: 5px;
+}
+.formula-description{
+    color: #727272;
+    font-size: 16px;
+    margin-bottom: 60px;
+}
+.formula-content{
+    box-shadow: 0px 4px 30px 0px #0000000F;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.content-titel{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.content-description{
+    font-size: 16px;
+    color: #727272;
+    
+}
+.s{
+    position: relative;
+}
+.feture-formula-btn{
+    padding: 15px 30px;
+    background-color: #FF900E;
+    border-radius: 8px;
+    font-size: 35px;
+    position: absolute;
+     margin-left: 400px; 
+     margin-top: 900px;
+     margin-bottom: 130px;
+    
+    
+   
+}
+.btn-font{
+    font-size: 16px;
+}
